@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine Fantasma| Recursos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+             <div class="logo-container">
+            <a href="index.html" class="logo">
+                <img src="/img/logo-fanstasminha-projeto.webp" alt="Obras Audiovisuais Brasileiras">
+            </a>
+                <h1 class="logo-titulo">Recursos</h1>
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav class="navegacao">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="classicos.html">Clássicos</a></li>
+                    <li><a href="curtas.html">Curtas</a></li>
+                    <li><a href="diretores.html">Diretores</a></li>
+                    <li><a href="documentarios.html">Documentários</a></li>
+                    <li><a href="festivais.html">Festivais</a></li>
+                    <li><a href="series.html">Séries</a></li>
+                    <li><a href="recursos.html">Recursos</a></li>
+                </ul>
+                
+                <div class="busca">
+                    <form action="busca.html" method="get">
+                        <input type="text" placeholder="Buscar...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+  <main class="conteudo-principal">
+    <div class="container">
+        <h1 class="titulo-pagina">Recursos para Cineastas em 2025</h1>
+        <p class="subtitulo">Tudo o que você precisa para produzir audiovisual no Brasil</p>
+        
+        <div class="filtros">
+            <select id="categoria-filtro">
+                <option value="todos">Todos os recursos</option>
+                <option value="editais">Editais</option>
+                <option value="festivais">Festivais</option>
+                <option value="ferramentas">Ferramentas</option>
+                <option value="formacao">Formação</option>
+            </select>
+            
+            <select id="tipo-filtro">
+                <option value="todos">Todos os tipos</option>
+                <option value="nacional">Nacional</option>
+                <option value="regional">Regional</option>
+                <option value="internacional">Internacional</option>
+            </select>
+        </div>
+        
+        <div class="recurso-item" data-categoria="editais" data-tipo="nacional">
+            <h3>Edital ANCINE 2025 - Produção de Longas-Metragens</h3>
+            <div class="recurso-meta">
+                <span><i class="fas fa-calendar"></i> Inscrições: 15/03 a 30/04/2025</span>
+                <span><i class="fas fa-money-bill-wave"></i> R$ 50 milhões em recursos</span>
+                <span><i class="fas fa-file-pdf"></i> PDF</span>
+            </div>
+            <p>O principal edital da ANCINE para fomento à produção de longas-metragens no Brasil, com recursos do Fundo Setorial do Audiovisual.</p>
+            <div class="recurso-links">
+                <a href="https://www.gov.br/ancine/pt-br/editais/edital-longas-2025" class="botao" target="_blank">Edital Completo</a>
+                <a href="https://www.gov.br/ancine/pt-br/editais/edital-longas-2025/formulario" class="botao botao-secundario" target="_blank">Formulário</a>
+            </div>
+        </div>
+        
+        <div class="recurso-item" data-categoria="editais" data-tipo="regional">
+            <h3>PRODAV 2025 - Programa de Fomento ao Audiovisual Paulista</h3>
+            <div class="recurso-meta">
+                <span><i class="fas fa-calendar"></i> Inscrições: 10/01 a 15/03/2025</span>
+                <span><i class="fas fa-money-bill-wave"></i> R$ 15 milhões em recursos</span>
+                <span><i class="fas fa-map-marker-alt"></i> São Paulo</span>
+            </div>
+            <p>Programa da Secretaria de Cultura e Economia Criativa do Estado de São Paulo que apoia desenvolvimento, produção e distribuição de obras audiovisuais.</p>
+            <div class="recurso-links">
+                <a href="https://www.cultura.sp.gov.br/editais/prodav-2025/" class="botao" target="_blank">Acessar Edital</a>
+                <a href="https://www.cultura.sp.gov.br/editais/prodav-2025/duvidas" class="botao botao-secundario" target="_blank">Tire suas dúvidas</a>
+            </div>
+        </div>
+        
+        <div class="recurso-item" data-categoria="ferramentas" data-tipo="nacional">
+            <h3>Mapa de Filmagens Brasil - Plataforma Digital</h3>
+            <div class="recurso-meta">
+                <span><i class="fas fa-database"></i> Banco de dados</span>
+                <span><i class="fas fa-map-marked-alt"></i> +5.000 locais cadastrados</span>
+            </div>
+            <p>Plataforma colaborativa que reúne informações sobre locações para filmagem em todo o território nacional, com filtros por região, tipo de espaço e infraestrutura disponível.</p>
+            <div class="recurso-links">
+                <a href="https://www.mapafilmagensbrasil.gov.br" class="botao" target="_blank">Acessar Plataforma</a>
+                <a href="https://www.mapafilmagensbrasil.gov.br/cadastro" class="botao botao-secundario" target="_blank">Cadastrar local</a>
+            </div>
+        </div>
+        
+        <div class="recurso-item" data-categoria="formacao" data-tipo="internacional">
+            <h3>Bolsa Cannes 2025 - Programa de Formação para Novos Talentos</h3>
+            <div class="recurso-meta">
+                <span><i class="fas fa-calendar"></i> Inscrições: 05/02 a 10/04/2025</span>
+                <span><i class="fas fa-graduation-cap"></i> 20 vagas para brasileiros</span>
+                <span><i class="fas fa-globe-europe"></i> Cannes, França</span>
+            </div>
+            <p>Programa de intercâmbio que leva jovens cineastas brasileiros para workshops e mentorias durante o Festival de Cannes, com todas as despesas pagas.</p>
+            <div class="recurso-links">
+                <a href="https://www.festival-cannes.com/en/industry/marche-du-film/programs" class="botao" target="_blank">Site Oficial</a>
+                <a href="https://www.gov.br/cultura/pt-br/assuntos/noticias/bolsa-cannes-2025" class="botao botao-secundario" target="_blank">Edital Brasileiro</a>
+            </div>
+        </div>
+        
+        <div class="recurso-item" data-categoria="festivais" data-tipo="nacional">
+            <h3>Festival de Brasília 2025 - Chamada de Filmes</h3>
+            <div class="recurso-meta">
+                <span><i class="fas fa-calendar"></i> Inscrições: 01/03 a 30/05/2025</span>
+                <span><i class="fas fa-trophy"></i> Prêmios em dinheiro</span>
+                <span><i class="fas fa-film"></i> Longas, médias e curtas</span>
+            </div>
+            <p>57ª edição do mais tradicional festival de cinema do Brasil, com mostras competitivas e não competitivas para obras de todos os formatos.</p>
+            <div class="recurso-links">
+                <a href="https://www.festivaldebrasilia.com.br/2025/inscricoes" class="botao" target="_blank">Inscreva seu filme</a>
+                <a href="https://www.festivaldebrasilia.com.br/2025/regulamento" class="botao botao-secundario" target="_blank">Regulamento</a>
+            </div>
+        </div>
+        
+        <div class="recurso-item" data-categoria="ferramentas" data-tipo="nacional">
+            <h3>IA Audiovisual - Ferramentas de Inteligência Artificial para Cineastas</h3>
+            <div class="recurso-meta">
+                <span><i class="fas fa-robot"></i> Plataforma gratuita</span>
+                <span><i class="fas fa-tools"></i> Roteiro à pós-produção</span>
+            </div>
+            <p>Conjunto de ferramentas de IA desenvolvidas pela Universidade de São Paulo para auxiliar em todas as etapas da produção audiovisual, desde análise de roteiro até correção de cor automatizada.</p>
+            <div class="recurso-links">
+                <a href="https://www.iaaudiovisual.usp.br" class="botao" target="_blank">Acessar Ferramentas</a>
+                <a href="https://www.iaaudiovisual.usp.br/tutoriais" class="botao botao-secundario" target="_blank">Tutoriais</a>
+            </div>
+        </div>
+        
+        <div class="recurso-item" data-categoria="editais" data-tipo="internacional">
+            <h3>IDFA Bertha Fund 2025 - Apoio a Documentaristas do Sul Global</h3>
+            <div class="recurso-meta">
+                <span><i class="fas fa-calendar"></i> Inscrições: 15/06 a 15/09/2025</span>
+                <span><i class="fas fa-money-bill-wave"></i> Até €50.000 por projeto</span>
+                <span><i class="fas fa-globe-americas"></i> Holanda/Brasil</span>
+            </div>
+            <p>Programa do International Documentary Film Festival Amsterdam que oferece financiamento e mentoria para documentaristas de países em desenvolvimento, com ênfase em narrativas inovadoras.</p>
+            <div class="recurso-links">
+                <a href="https://www.idfa.nl/en/industry/idfa-bertha-fund" class="botao" target="_blank">Site Oficial</a>
+                <a href="https://www.idfa.nl/media/filer_public/2025/01/15/bertha_fund_guidelines_2025.pdf" class="botao botao-secundario" target="_blank">Diretrizes (PDF)</a>
+            </div>
+        </div>
+        
+        <div class="recurso-item" data-categoria="formacao" data-tipo="nacional">
+            <h3>Curso Online Avançado de Distribuição Audiovisual</h3>
+            <div class="recurso-meta">
+                <span><i class="fas fa-calendar"></i> Início: 07/04/2025</span>
+                <span><i class="fas fa-clock"></i> 60 horas</span>
+                <span><i class="fas fa-certificate"></i> Certificado ANCINE</span>
+            </div>
+            <p>Capacitação gratuita oferecida pela ANCINE em parceria com a Universidade Federal Fluminense sobre estratégias contemporâneas de distribuição e exibição de obras audiovisuais.</p>
+            <div class="recurso-links">
+                <a href="https://www.ancine.gov.br/cursos/ead-distribuicao-2025" class="botao" target="_blank">Inscreva-se</a>
+                <a href="https://www.ancine.gov.br/cursos/ead-distribuicao-2025/programa" class="botao botao-secundario" target="_blank">Programa do Curso</a>
+            </div>
+        </div>
+        
+        <div class="paginacao">
+            <a href="#" class="botao">Carregar mais recursos</a>
+        </div>
+    </div>
+</main>
+
+    <footer class="rodape">
+        <div class="container">
+            <div class="rodape-coluna">
+                <h3>Sobre o projeto</h3>
+                <p>Este site é dedicado à divulgação e preservação da produção audiovisual brasileira em todas as suas formas. <br>desenvolvido pelo Dicente, Luís Carlos do primeiro semestre de ADS do IFCe Campus Boa Viagem <br>!! este site se trata de um projeto com fins unicamentes dididaticos, alguns links desse site são ficticios não mandamos mensagens,não baixe nenhum arquivo de terceiros!!! </p>
+            </div>
+            
+            <div class="rodape-coluna">
+                <h3>Links úteis</h3>
+                <ul>
+                    <li><a href="https://www.gov.br/ancine/pt-br">Ancine</a></li>
+                    <li><a href="https://mundoeducacao.uol.com.br/artes/cinema-brasileiro.htm">Cinema Brasileiro</a></li>
+                    <li><a href="https://cinemateca.org.br/">Cinemateca Brasileira</a></li>
+                </ul>
+            </div>
+            
+            <div class="rodape-coluna">
+                <h3>Redes sociais</h3>
+                <div class="redes-sociais">
+                    <a href="https://www.facebook.com/people/Cinema-Brasileiro/100052640962111/#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/cine_brasileiro"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/academia_brasileira_de_cinema/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@CanalBrasil/featured"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="rodape-creditos">
+            <p>&copy; 2025 Cine Fantasma. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
